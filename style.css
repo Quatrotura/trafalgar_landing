@@ -1,0 +1,25 @@
+@import 'header.css';
+@import 'promo.css';
+@import 'services.css';
+@import 'cards.css';
+@import 'promo2.css';
+@import 'promo3.css';
+@import 'customers.css';
+@import 'articles.css';
+@import 'footer.css';
+
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    margin: 0 0 0 0;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap; */
+}
+
+a{
+    text-decoration: none;
+}

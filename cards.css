@@ -1,0 +1,92 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url('images/background-for-cards.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 50%;
+}
+
+
+
+.cards__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 810px;
+    width: 1000px;
+    padding: 30px 0 0 0;
+}
+
+.cards__wrapper_bg {
+    background-image: url('images/dots-for-cards.png');
+    background-repeat: no-repeat;
+    background-position: right 3px top 42.5%;
+}
+.cards__elem {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: white;
+    height: 260px;
+    width: 260px;
+    margin: 0 25px 0 0;
+    border-radius: 5%;
+    box-shadow: 0px 2px 6px -1px rgba(0,0,0,0.03);
+    padding:45px 10px 10px 20px;
+}
+
+.cards__logo {
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 25px;
+}
+.cards__logo_zoomsearch {
+    background-image: url('images/icons/zoomsearch.png');
+}
+.cards__logo_pills {
+    background-image: url('images/icons/pills.png');
+}
+.cards__logo_profile {
+    background-image: url('images/icons/profile.png');
+}
+.cards__logo_profile2 {
+    background-image: url('images/icons/profile2.png');
+}
+.cards__logo_emkit {
+    background-image: url('images/icons/emergancykit.png');
+}
+.cards__logo_tracking {
+    background-image: url('images/icons/tracking.png');
+}
+.cards__title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.cards__text {
+    font-size: 13px;
+    line-height: 2;
+    color: #7D7987;
+
+}
+
+.cards__button {
+
+    background-color: white;
+    font-size: 18px;
+    color: #458FF6;
+    border-radius: 30px;
+    height: 56px;
+    width: 200px;
+    border: 1px;
+    border-style: solid;
+    border-color: #458FF6;
+    margin-top: 50px;
+    
+}

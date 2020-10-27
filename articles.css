@@ -1,0 +1,141 @@
+.articles {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 1111px;
+    height: 800px;
+    margin: 0% 8% 10% 8.5%;
+}
+
+
+.articles__title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 12.4%;
+}
+
+.articles__underline {
+    font-weight: bold;
+    line-height: 100%;
+    letter-spacing: -1px;
+    height: 80px;
+    margin-left: 12.4%;
+    
+}
+
+.articles__cards {
+    display: flex;
+    gap: 2%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 5000;
+    position: relative;
+
+}
+
+.articles__dots-img {
+    background-image: url('images/dots-4-2nd-cards.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position:relative;
+    z-index: 1;
+    left: 90px;
+    top: -200px;
+    width: 150px;
+    height: 115px;
+
+}
+.articles__card-logo_1 {
+    background-image: url('images/checkup.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 220px;
+    width: 320px;
+    z-index: 5000;
+    position: relative;
+}
+.articles__card-logo_2 {
+    background-image: url('images/detection.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 220px;
+    width: 320px;
+    z-index: 5000;
+    position: relative;
+}
+.articles__card-logo_3 {
+    background-image: url('images/undie.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 220px;
+    width: 320px;
+    z-index: 5000;
+    position: relative;
+}
+.articles__card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 330px;
+    border-radius: 5%;
+    box-shadow:  1px 0px 7px 0px rgba(50, 50, 50, 0.75);
+    height: 430px;
+    z-index: 5000;
+
+}
+
+.articles__card-title {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5% 8% 5% 8%;
+
+}
+
+.articles__card-text {
+    font-size: 14px;
+    color: #7D7987;
+    padding: 0 8% 5% 8%;
+
+}
+
+.articles__card-readmore {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 15px;
+    color:#4089ED;
+    padding: 5% 8% 5% 8%;
+    background-image: url('images/icons/readmore_arrow.svg');
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: 35% 53%;
+    
+
+}
+
+
+
+    .articles__button {
+        background-color: white;
+        font-size: 18px;
+        color: #458FF6;
+        border-radius: 30px;
+        height: 56px;
+        width: 200px;
+        border: 1px;
+        border-style: solid;
+        border-color: #458FF6;
+        text-align: center;
+        margin: 40% 0 40% 36%;
+    }
+
+
+    .articles__card-readmore:visited {
+        text-decoration: none;
+        color:#4089ED;
+    }

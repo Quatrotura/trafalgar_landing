@@ -1,0 +1,93 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(to top, #5A98F2, #67C3F3);
+    height: 250px;
+    width: 100%;
+}
+
+.footer__wrapper1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: left;
+    width: 20%;
+    margin: 0 0 0 10.1%;
+    height: 145px;
+
+}
+
+.footer__logo-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.footer__trafalgar-logo {
+    width: 30px; 
+    height: 30px;
+    background: white;
+    border-radius: 50%;
+    background-image: url('images/footer_t-letter.png');
+    background-repeat: no-repeat;
+    background-size: 16px 19px;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+.footer__trafalgar-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin: 0 0 0 10px;
+    
+}
+
+.footer__trafalgar-info {
+    font-size: 12px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.footer__trafalgar-copyrights {
+    font-size: 12px;
+    color: white;
+}
+
+.footer__wrapper2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: left;
+    width: 6%;
+    margin: 0 5% 0 5%;
+}
+.footer__title{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+
+}
+.footer__line {
+    font-size: 12px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.footer__title:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.footer__line:visited {
+    text-decoration: none;
+    color: white;
+}

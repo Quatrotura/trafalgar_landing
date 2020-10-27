@@ -1,0 +1,64 @@
+
+.promo3 {
+    display:flex;
+    flex-direction: row;  
+    justify-content: space-between;
+    align-items: center;
+    margin: 7% 10% 0 10%;
+
+}
+
+.promo3__image {
+    background-image: url('images/promo-3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 470px;
+    width: 650px;
+
+
+}
+.promo3__infoblock {
+    display:flex;
+    flex-direction: column;
+    margin: 0 0 0 100px;
+}
+
+.promo3__title {
+    font-size: 36px;
+    font-weight: bold;
+
+
+}
+
+.promo3__underline {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    line-height: 100%;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+}
+.promo3__text {
+    font-size: 18px;
+    color: #7D7987;
+    margin: 0 0 45px 0;
+    line-height: 2;
+}
+
+.promo3__button {
+    background-color: white;
+    font-size: 18px;
+    color: #458FF6;
+    border-radius: 30px;
+    height: 56px;
+    width: 200px;
+    border: 1px;
+    border-style: solid;
+    border-color: #458FF6;
+    background: url('images/icons/download-arrow.png');
+    background-repeat: no-repeat;
+    background-position-x: 85%;
+    background-position-y: 53%;
+    text-align: center;
+}
+  

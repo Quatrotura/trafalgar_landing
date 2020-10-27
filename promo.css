@@ -1,0 +1,57 @@
+.promo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7% 10% 0 0;
+
+}
+
+.promo__dots {
+    
+    background-image: url('images/dots.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 115px;
+    width: 100px;
+    margin-bottom: 460px;
+}
+        
+.promo__image {
+    background-image: url('images/promo-1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 590px;
+    width: 690px;
+}
+
+.promo__infoblock {
+    display: flex;
+    flex-direction: column;
+    /* width: 445px; */
+    height: 360px;
+    margin: 0 0 0 20px;
+}
+
+.promo__title {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.promo__text {
+    font-size: 20px;
+    color: #7D7987;
+    margin: 25px 0 45px 0;
+    line-height: 2;
+}
+
+.promo__button {
+    background-color: #458FF6;
+    font-size: 18px;
+    color: white;
+    border-radius: 30px;
+    height: 56px;
+    width: 200px;
+    border: unset;
+    
+}

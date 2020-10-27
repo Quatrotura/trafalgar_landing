@@ -1,0 +1,129 @@
+.customers {
+    display:flex;
+    flex-direction: row; 
+    margin: 10% 12% 0 10%;
+    position: relative;
+}
+.customers__dots-img_left {
+    background-image: url('images/dots-4-commenting-block-bottom.png');
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    width: 50px;
+    height: 100px;
+    margin: 250px 0 0 70px;
+
+}
+.customers__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: url('images/commenting-block.png') no-repeat;
+    background-size: contain;
+    height: 400px;
+    width: 1059px;
+    background-position: right;
+
+}
+.customers__infoblock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 1000px;
+}
+
+.customers__title {
+    height: 76px;
+    width: 100%;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    line-height: 76px;
+    background-image: url('images/dots-4-commenting-block-top.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 103% -18px;
+
+}
+
+.customers__underline {
+    font-size: small;
+    color: white;
+    line-height: 100%;
+
+}
+
+.customers__infoblock_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-top: 50px;
+
+
+} 
+
+.customers__pic {
+    background-image: url('images/dude.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 110px;
+    height: 110px;
+    margin-right: 1rem;
+
+}
+
+
+
+.customers__credentials {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.customers__name {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.customers__position {
+    font-size: 16px;
+    color:white;
+}
+
+.customers__comments {
+    font-size: 15px;
+    color: white;
+    width: 40%;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 90px;
+    margin: 2% 0 5% 0;
+    height: 30px;
+}
+
+.slider__arrow-left {
+    background-image: url('images/icons/left-arrow-4-commenting-block.png');
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 20px;
+    margin-right: 50px;
+}
+
+.slider__arrow-right {
+    background-image: url('images/icons/right-arrow-4-commenting-block.png');
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 20px;
+    margin-left: 50px;
+}
+
+
